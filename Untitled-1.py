@@ -1,0 +1,6 @@
+print("Welcome to Prosensia!!")
+hour=input("Enter hours you have worked: ")
+wage=input("Enter your hourly wage rate: ")
+hour=int(hour)
+wage=float(wage)
+print("Earned Payment: ", hour*wage)
